@@ -4,7 +4,7 @@ Login/Signup app which handles boiler plate Validation logics using MVP design p
 Why this Repo?
 --------------
 
-AndroidMVPAuthenticationBoilerPlate is the code snippets to handle Signpu/Login screen flow process with SQLite in an elegant manner using MVP design pattern. The ultimate focus of this repo to handle packaging structure, class hierarchy, module structure, database handling, validation checks, page tracking, sending parcelable object, storing object as strings using gson, offline data loading,etc.
+AndroidMVPAuthenticationBoilerPlate is the code snippets to handle Signup/Login screen flow process with SQLite in an elegant manner using MVP design pattern. The ultimate focus of this repo to handle packaging structure, class hierarchy, module structure, database handling, validation checks, page tracking, sending parcelable object, storing object as strings using gson, offline data loading,etc.
 
 **Signup**
 
