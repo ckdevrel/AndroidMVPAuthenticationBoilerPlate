@@ -9,7 +9,7 @@ AndroidMVPAuthenticationBoilerPlate is the code snippets to handle Signup/Login 
 
 ***SignupView.java***
 
-An Activity or Fragment should implement SignupView inorder to receive the callback status whether it is sucess or failure.
+An Activity or Fragment should implement SignupView inorder to receive the callback for success and failure cases.
 
 ```
 package com.takeoffandroid.mvpauthentication.modules.authentication.signup;
@@ -29,7 +29,7 @@ public interface SignupView {
 
 The set of methods and modules for signup that should be added in SignupPresenter. 
 Eg: In this demo app I am validating credentials and processing the UI once after successful validation, so I have created 
-method ***validateCredentials***.
+method ***validateCredentials***. The methods can be created as many based on the requirements to handle.
 
 ```
 package com.takeoffandroid.mvpauthentication.modules.authentication.signup;
