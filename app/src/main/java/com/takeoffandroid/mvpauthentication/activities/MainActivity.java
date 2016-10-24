@@ -50,8 +50,8 @@ public class MainActivity extends BaseActivity implements ProfileUpdateView {
         mAuthentication = ActivityUtils.getBundleParecelable(MainActivity.this, Constants.INTENT.KEY_SEND_AUTHENTICATION);
 
         /**
-         *Inserting 'true' boolean for mainscreen traction. If the app is launched next time. MainActivity.java
-         *will be called after SplashActivity.java.
+         * Inserting 'true' boolean for mainscreen traction. If the app is launched next time. MainActivity.java
+         * will be called after SplashActivity.java.
          */
         SharedPrefsUtils.putBoolean(Constants.SHARED_PREFS.KEY_FLAG_MAINSCREEN, true, this);
 

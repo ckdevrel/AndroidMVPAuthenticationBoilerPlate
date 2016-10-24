@@ -11,8 +11,6 @@ public class ValidationUtils {
     //Regex for login and signup password validation
     private static final String PASSWORD_REGEX = "[a-zA-Z0-9 ]*";
 
-    //Regex for login and signup malaysian phone number validation
-    private static final String MALAYSIA_PHONE_NUMBER_REGEX = "^6?01\\d{8}$";
 
 
     /**
@@ -42,11 +40,18 @@ public class ValidationUtils {
 
     /**
      * Method to check valid malaysia mobile number
-     * @param mobile - Malaysian mobile number (Eg: 60123456788 or 0112345678)
+     * @param mobile
      * @return boolean true if mobile number is valid
      */
     public static boolean isValidMobile(@NonNull String mobile) {
-            return !TextUtils.isEmpty(mobile) && Pattern.compile(MALAYSIA_PHONE_NUMBER_REGEX).matcher(mobile.trim()).matches();
+
+        if(!TextUtils.isEmpty(mobile) && mobile.length() == 10){
+            if( mobile.startsWith("9") || mobile.startsWith("8") || mobile.startsWith("7")){
+                return true;
+            }
+        }
+
+        return false;
     }
 
     /**

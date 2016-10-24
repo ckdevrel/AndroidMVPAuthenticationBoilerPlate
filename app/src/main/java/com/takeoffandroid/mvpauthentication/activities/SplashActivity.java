@@ -56,9 +56,15 @@ public class SplashActivity extends BaseActivity {
             }
         };
 
-        handler.postDelayed(runnable, Constants.SPLASH_TIME_OUT);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        handler.postDelayed(runnable, Constants.SPLASH_TIME_OUT);
+
+    }
 
     @Override
     public void onBackPressed() {
