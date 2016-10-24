@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="signup_user_types">
+
+        <item>Broker</item>
+        <item>Agent</item>
+        <item>Dealer</item>
+        <item>Private</item>
+
+        <item>@string/spinner_user_type</item>
+
+    </string-array>
+
+</resources>

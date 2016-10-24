@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">TakeoffMVP</string>
+
+    <string name="spinner_user_type">Choose user type</string>
+
+    <string name="wrong_mobile">Mobile number is not valid</string>
+
+    <string name="wrong_email">Email is not valid</string>
+
+    <string name="wrong_password">Password should contain one special character and minimum 8 characters required</string>
+
+    <string name="wrong_form_data">Please complete the form</string>
+
+    <string name="wrong_user_type">Please select user type</string>
+
+    <string name="toast_button_user_type">Your account type is Private</string>
+
+    <string name="email_already_exists">Email already exist</string>
+
+    <string name="mobile_already_exists">Mobile already exist</string>
+
+    <string name="email_not_registered">This Email is not registered with us!</string>
+
+    <string name="email_password_combination_wrong">The entered Email and Pasword combination is wrong</string>
+
+
+    <string name="edit_mobile_number_success">Number edit successfully</string>
+
+
+</resources>

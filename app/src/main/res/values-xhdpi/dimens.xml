@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- &&&&& Screen dimens for Xhdpi screens &&&&& -->
+
+<resources>
+
+    <dimen name="spacing_small_low">7dp</dimen>
+    <dimen name="spacing_small">14dp</dimen>
+    <dimen name="spacing_small_extra">19dp</dimen>
+
+
+    <!--Piechart-->
+
+
+</resources>

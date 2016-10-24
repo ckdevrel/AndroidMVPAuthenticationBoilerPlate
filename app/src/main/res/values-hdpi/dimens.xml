@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- &&&&& Screen dimens for hdpi screens &&&&& -->
+
+    <dimen name="spacing_small_low">5dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_small_extra">15dp</dimen>
+
+
+    <!--Piechart-->
+
+</resources>

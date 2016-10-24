@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- &&&&& Screen dimens for Large mdpi screens &&&&& -->
+<resources>
+
+    <dimen name="spacing_small_low">8dp</dimen>
+    <dimen name="spacing_small">16dp</dimen>
+    <dimen name="spacing_small_extra">25dp</dimen>
+
+</resources>
