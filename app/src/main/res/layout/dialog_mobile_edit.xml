@@ -15,6 +15,7 @@
         android:textColorHint="@color/secondary_text"
         android:inputType="number"
         android:padding="10dp"
-        android:background="@color/chrome_grey"/>
+        android:background="@color/chrome_grey"
+        android:maxLength="10"/>
 
 </LinearLayout>

@@ -44,17 +44,16 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="9"
                         android:background="@android:color/transparent"
+                        android:cursorVisible="true"
                         android:hint="First Name"
+                        android:inputType="text"
                         android:maxLines="1"
                         android:paddingLeft="@dimen/spacing_small"
                         android:paddingRight="@dimen/spacing_small"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/primary_text"
                         android:textColorHint="@color/secondary_text"
-                        android:inputType="text"
-                        android:cursorVisible="true"
-                        android:textCursorDrawable="@null"
-                        />
+                        android:textCursorDrawable="@null" />
                 </LinearLayout>
 
                 <View
@@ -81,17 +80,16 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="9"
                         android:background="@android:color/transparent"
+                        android:cursorVisible="true"
                         android:hint="Last Name"
+                        android:inputType="text"
                         android:maxLines="1"
                         android:paddingLeft="@dimen/spacing_small"
                         android:paddingRight="@dimen/spacing_small"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/primary_text"
                         android:textColorHint="@color/secondary_text"
-                        android:inputType="text"
-                        android:cursorVisible="true"
-                        android:textCursorDrawable="@null"
-                        />
+                        android:textCursorDrawable="@null" />
                 </LinearLayout>
 
                 <View
@@ -118,17 +116,17 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="9"
                         android:background="@android:color/transparent"
+                        android:cursorVisible="true"
                         android:hint="Mobile"
+                        android:inputType="number"
+                        android:maxLength="10"
                         android:maxLines="1"
                         android:paddingLeft="@dimen/spacing_small"
                         android:paddingRight="@dimen/spacing_small"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/primary_text"
                         android:textColorHint="@color/secondary_text"
-                        android:inputType="number"
-                        android:cursorVisible="true"
-                        android:textCursorDrawable="@null"
-                        />
+                        android:textCursorDrawable="@null" />
                 </LinearLayout>
 
                 <View
@@ -157,17 +155,16 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="9"
                         android:background="@android:color/transparent"
+                        android:cursorVisible="true"
                         android:hint="Email"
+                        android:inputType="textEmailAddress"
                         android:maxLines="1"
                         android:paddingLeft="@dimen/spacing_small"
                         android:paddingRight="@dimen/spacing_small"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/primary_text"
                         android:textColorHint="@color/secondary_text"
-                        android:inputType="textEmailAddress"
-                        android:cursorVisible="true"
-                        android:textCursorDrawable="@null"
-                        />
+                        android:textCursorDrawable="@null" />
                 </LinearLayout>
 
 
@@ -196,17 +193,16 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="9"
                         android:background="@android:color/transparent"
+                        android:cursorVisible="true"
                         android:hint="Password"
+                        android:inputType="textPassword"
                         android:maxLines="1"
                         android:paddingLeft="@dimen/spacing_small"
                         android:paddingRight="@dimen/spacing_small"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/primary_text"
                         android:textColorHint="@color/secondary_text"
-                        android:inputType="textPassword"
-                        android:cursorVisible="true"
-                        android:textCursorDrawable="@null"
-                        />
+                        android:textCursorDrawable="@null" />
                 </LinearLayout>
 
                 <View
@@ -222,7 +218,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/spacing_small"
                     android:drawSelectorOnTop="true"
-                    android:paddingRight="@dimen/spacing_small"/>
+                    android:paddingRight="@dimen/spacing_small" />
 
 
                 <Button
