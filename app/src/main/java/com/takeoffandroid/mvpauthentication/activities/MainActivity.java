@@ -47,7 +47,7 @@ public class MainActivity extends BaseActivity implements ProfileUpdateView {
 
         presenter = new ProileUpdatePresenterImpl(MainActivity.this,this);
 
-        mAuthentication = ActivityUtils.getBundleParecelable(MainActivity.this, Constants.INTENT.KEY_SEND_AUTHENTICATION);
+        mAuthentication = ActivityUtils.getBundleParecelableExtra(MainActivity.this, Constants.INTENT.KEY_SEND_AUTHENTICATION);
 
         /**
          * Inserting 'true' boolean for mainscreen traction. If the app is launched next time. MainActivity.java

@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.app.FragmentActivity;
 
+import java.io.Serializable;
+
 /**
  * Created by chandrasekar on 19/10/16.
  */
@@ -23,7 +25,7 @@ public class ActivityUtils {
         Intent intent = new Intent(context, activity);
 
         if (data != null) {
-            putBundleParcelable(key,data,intent);
+            putBundle(key,data,intent);
         }
         context.startActivity(intent);
         if (closeCurrentActivity) {
@@ -64,7 +66,7 @@ public class ActivityUtils {
         Intent intent = new Intent(context, activity);
 
         if (data != null) {
-            putBundleParcelable(key,data,intent);
+            putBundle(key,data,intent);
         }
         context.startActivity(intent);
         if (closeCurrentActivity) {
@@ -95,14 +97,29 @@ public class ActivityUtils {
     }
 
 
-    public static <T> void putBundleParcelable(String key, T data, Intent intent){
+    public static <T> void putBundle(String key, T data, Intent intent){
         Bundle bundle = new Bundle();
-        bundle.putParcelable(key, (Parcelable) data);
-        intent.putExtras(bundle);
+
+        try {
+
+            if (data instanceof Parcelable) {
+                bundle.putParcelable(key, (Parcelable) data);
+            } else if (data instanceof Serializable) {
+                bundle.putSerializable(key, (Serializable) data);
+            }
+            intent.putExtras(bundle);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 
-    public static <T> T getBundleParecelable(Activity activity, String key){
+    public static <T> T getBundleParecelableExtra(Activity activity, String key){
         return activity.getIntent().getParcelableExtra(key);
+    }
+
+    public static <T> T getBundleSerializableExtra(Activity activity, String key){
+        return (T)activity.getIntent().getSerializableExtra(key);
     }
 }
