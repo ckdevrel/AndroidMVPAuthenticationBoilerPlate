@@ -1,6 +1,26 @@
 # AndroidMVPAuthenticationBoilerPlate
 Login/Signup app which handles boiler plate Validation logics using MVP design patterns with SQLite Database.
 
+
+**Signup**
+
+
+<a href="http://imgur.com/Tob4A22"><img src="http://i.imgur.com/Tob4A22.gif" title="source: imgur.com" /></a>
+
+
+**Login**
+
+
+<a href="http://imgur.com/vcZgCS5"><img src="http://i.imgur.com/vcZgCS5.gif" title="source: imgur.com" /></a>
+
+
+**Update**
+
+
+<a href="http://imgur.com/yAi9Bm5"><img src="http://i.imgur.com/yAi9Bm5.gif" title="source: imgur.com" /></a>
+
+
+
 Why this Repo?
 --------------
 
@@ -204,26 +224,3 @@ public class SignupInteractorImpl implements SignupInteractor {
 
 
 ```
-
-
-**Signup**
-
-
-<a href="http://imgur.com/Tob4A22"><img src="http://i.imgur.com/Tob4A22.gif" title="source: imgur.com" /></a>
-
-
-**Login**
-
-
-<a href="http://imgur.com/vcZgCS5"><img src="http://i.imgur.com/vcZgCS5.gif" title="source: imgur.com" /></a>
-
-
-**Update**
-
-
-<a href="http://imgur.com/yAi9Bm5"><img src="http://i.imgur.com/yAi9Bm5.gif" title="source: imgur.com" /></a>
-
-
-
-
-
