@@ -1,3 +1,5 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AndroidMVPAuthenticationBoilerPlate-brightgreen.svg?style=flat)]()
+
 # AndroidMVPAuthenticationBoilerPlate
 Login/Signup app which handles boiler plate Validation logics using MVP design patterns with SQLite Database.
 
