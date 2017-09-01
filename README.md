@@ -1,5 +1,29 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AndroidMVPAuthenticationBoilerPlate-brightgreen.svg?style=flat)]()
+
+<a href='https://ko-fi.com/A302HW7' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
+
 # AndroidMVPAuthenticationBoilerPlate
 Login/Signup app which handles boiler plate Validation logics using MVP design patterns with SQLite Database.
+
+
+**Signup**
+
+
+<a href="http://imgur.com/Tob4A22"><img src="http://i.imgur.com/Tob4A22.gif" title="source: imgur.com" /></a>
+
+
+**Login**
+
+
+<a href="http://imgur.com/vcZgCS5"><img src="http://i.imgur.com/vcZgCS5.gif" title="source: imgur.com" /></a>
+
+
+**Update**
+
+
+<a href="http://imgur.com/yAi9Bm5"><img src="http://i.imgur.com/yAi9Bm5.gif" title="source: imgur.com" /></a>
+
+
 
 Why this Repo?
 --------------
@@ -204,26 +228,3 @@ public class SignupInteractorImpl implements SignupInteractor {
 
 
 ```
-
-
-**Signup**
-
-
-<a href="http://imgur.com/Tob4A22"><img src="http://i.imgur.com/Tob4A22.gif" title="source: imgur.com" /></a>
-
-
-**Login**
-
-
-<a href="http://imgur.com/vcZgCS5"><img src="http://i.imgur.com/vcZgCS5.gif" title="source: imgur.com" /></a>
-
-
-**Update**
-
-
-<a href="http://imgur.com/yAi9Bm5"><img src="http://i.imgur.com/yAi9Bm5.gif" title="source: imgur.com" /></a>
-
-
-
-
-
