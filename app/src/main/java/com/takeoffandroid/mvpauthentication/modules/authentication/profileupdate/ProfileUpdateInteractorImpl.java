@@ -18,7 +18,7 @@ public class ProfileUpdateInteractorImpl implements ProfileUpdateInteractor {
 
         boolean error = false;
 
-        if (ValidationUtils.isNullOrEmpty(mobile)){
+        if (ValidationUtils.isValidString(mobile)){
             listener.onUpdateMobileFailure(context.getString(R.string.wrong_form_data));
             error = true;
             return;

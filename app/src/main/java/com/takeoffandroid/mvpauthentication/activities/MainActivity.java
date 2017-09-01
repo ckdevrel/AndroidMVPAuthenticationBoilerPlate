@@ -124,7 +124,7 @@ public class MainActivity extends BaseActivity implements ProfileUpdateView {
 
                 /**
                  *On logout clearing the flag for main screen traction by assigning 'false', so that
-                 *during next time launch LoginActivity called.
+                 *during next time launch SigninActivity called.
                  */
                 SharedPrefsUtils.putBoolean(Constants.SHARED_PREFS.KEY_FLAG_MAINSCREEN, false, MainActivity.this);
 

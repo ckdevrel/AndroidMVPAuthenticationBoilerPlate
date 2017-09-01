@@ -23,7 +23,7 @@ public class SignupInteractorImpl implements SignupInteractor {
 
         boolean error = false;
 
-        if (ValidationUtils.isNullOrEmpty(new String[]{email, password})){
+        if (ValidationUtils.isValidString(new String[]{email, password})){
             listener.onValidationError(context.getResources().getString(R.string.wrong_form_data));
             error = true;
             return;
@@ -54,7 +54,7 @@ public class SignupInteractorImpl implements SignupInteractor {
             return;
         }
 
-        if(ValidationUtils.isNullOrEmpty(userType)){
+        if(ValidationUtils.isValidString(userType)){
             listener.onValidationError(context.getResources().getString(R.string.wrong_user_type));
             error = true;
             return;

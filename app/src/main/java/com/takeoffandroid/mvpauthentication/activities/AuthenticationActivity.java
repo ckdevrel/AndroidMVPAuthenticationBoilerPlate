@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.takeoffandroid.mvpauthentication.R;
-import com.takeoffandroid.mvpauthentication.fragments.LoginFragment;
 import com.takeoffandroid.mvpauthentication.fragments.SignupFragment;
 
 import java.util.ArrayList;
@@ -46,8 +45,6 @@ public class AuthenticationActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(new LoginFragment(), "LOGIN");
-        adapter.addFragment(new SignupFragment(), "SIGNUP");
         viewPager.setAdapter(adapter);
     }
 

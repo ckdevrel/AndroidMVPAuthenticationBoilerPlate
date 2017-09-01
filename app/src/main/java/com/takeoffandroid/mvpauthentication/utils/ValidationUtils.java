@@ -18,8 +18,8 @@ public class ValidationUtils {
      * @param string
      * @return boolean true if string is empty
      */
-    public static boolean isNullOrEmpty(String string){
-            return TextUtils.isEmpty(string);
+    public static boolean isValidString(String string){
+            return !TextUtils.isEmpty(string);
     }
 
 
@@ -29,9 +29,9 @@ public class ValidationUtils {
      * @return boolean true if any of the String[] element is empty
      *
      */
-    public static boolean isNullOrEmpty(String[] strings){
+    public static boolean isValidString(String[] strings){
         for(String string : strings){
-            return TextUtils.isEmpty(string);
+            return isValidString(string);
         }
         return false;
 
@@ -39,7 +39,7 @@ public class ValidationUtils {
 
 
     /**
-     * Method to check valid malaysia mobile number
+     * Method to check valid indian mobile number
      * @param mobile
      * @return boolean true if mobile number is valid
      */

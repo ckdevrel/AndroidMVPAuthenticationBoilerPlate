@@ -49,7 +49,7 @@ public class SplashActivity extends BaseActivity {
 
                     ActivityUtils.launchActivity(SplashActivity.this, MainActivity.class, true, Constants.INTENT.KEY_SEND_AUTHENTICATION,authentication);
                 }else{
-                    ActivityUtils.launchActivity(SplashActivity.this, AuthenticationActivity.class, true);
+                    ActivityUtils.launchActivity(SplashActivity.this, SigninActivity.class, true);
 
                 }
 

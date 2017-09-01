@@ -11,4 +11,22 @@
     <color name="colorPrimary">#5F8EE4</color>
     <color name="colorAccent">#c8e8ff</color>
 
+
+    <color name="green">#6CC887</color>
+    <color name="blue">#5f8ee4</color>
+    <color name="blue_dark">#1F2D3E</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_black">#66000000</color>
+    <color name="transparent_black_80">#BF000000</color>
+    <color name="transparent_black_50">#80000000</color>
+    <color name="transparent_black_25">#40000000</color>
+    <color name="transparent_black_10">#1A000000</color>
+    <color name="facebook_blue">#3b5998</color>
+    <color name="twitter_blue">#1da1f2</color>
+    <color name="transparent_white_80">#CCFFFFFF</color>
+    <color name="transparent_white_20">#33FFFFFF</color>
+    <color name="transparent_white_50">#80FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="default_hint_color">#80FFFFFF</color>
+
 </resources>
